@@ -20,12 +20,7 @@ const app = useAppConfig() as AppConfigInput
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >
             <span class="text-center md:text-right">
-              design by <a href="https://github.com/viandwi24">viandwi24</a>
-            </span>
-            <span
-              class="block bg-blue-500 rounded px-1 py-0.5 text-white text-xs"
-            >
-              {{ p.devDependencies.nuxt }}
+              Nuxt theme by <a href="https://github.com/viandwi24">viandwi24</a>
             </span>
           </div>
         </div>

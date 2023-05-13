@@ -1,7 +1,7 @@
 export default defineAppConfig({
-  name: 'Nuxt 3 Awesome Starter',
+  name: 'Social Select Screen',
   author: {
-    name: 'viandwi24',
-    link: 'https://github.com/viandwi24',
+    name: 'LunarPunk-Labs',
+    link: 'https://github.com/LunarPunk-Labs/select_screen_social',
   },
 })
