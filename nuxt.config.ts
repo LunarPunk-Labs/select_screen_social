@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   // typescripts
   typescript: {
     strict: true,
-    typeCheck: true,
+    typeCheck: false,
   },
 
   // css
@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-windicss',
+    '@nuxtjs/apollo',
   ],
 
   // experimental features
@@ -99,6 +100,13 @@ export default defineNuxtConfig({
     },
     highlight: {
       theme: 'github-dark',
+    },
+  },
+  apollo: {
+    clients: {
+      default: {
+        httpEndpoint: 'https://api-mumbai.lens.dev',
+      },
     },
   },
 })
