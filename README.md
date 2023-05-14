@@ -1,7 +1,19 @@
 
+# Select Screen Social
 
+WIP dApp to dynamically generate banners based on social NFT claims.  
 
+```mermaid 
+sequenceDiagram
+ 
+Profile ->> Publication: Create event banner 
+Publication ->> Profile: List progenetor profile
+Publication ->> NFT Module: List chairs available
+Profile ->> NFT Module: Claim chair
+NFT Module ->> Profile: Issue chair NFT
+NFT Module ->> Publication: Add claiming profile to banner (DD)
 
+```
 
 
 
